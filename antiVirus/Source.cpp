@@ -21,6 +21,7 @@ int WINAPI WinMain(HINSTANCE hThisInstance, HINSTANCE PrevInstance,
 			ok = true;
 		}
 		RegCloseKey(hkey);
+
 	}
 
 		ShowWindow(hWin, true);
